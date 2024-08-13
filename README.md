@@ -54,14 +54,15 @@ Given this context, there is a pressing need for effective solutions to monitor,
 
 **1. Model Comparison Table**
 
-Model	               MAE	         MSE	          RMSE	       R² Score
-Random Forest	      2.63	        129.31	          11.37	        0.96
-AdaBoost	      18.17	        552.79	          23.51	        0.81
-CatBoost	      3.20	        133.15	          11.54	        0.95
-XGBoost	              5.19	        287.84	          16.97	        0.90
-Linear Regression     8.15	        293.22	          17.12	        0.90
-Naive Bayes	      9.15	        1072.53	          32.75	        0.63
-Decision Tree	      2.76	        171.82	          13.11	        0.94
+| Model            | MAE  | MSE    | RMSE | R² Score |
+|------------------|------|--------|------|----------|
+| Random Forest    | 2.63 | 129.31 | 11.37| 0.96     |
+| AdaBoost         | 18.17| 552.79 | 23.51| 0.81     |
+| CatBoost         | 3.20 | 133.15 | 11.54| 0.95     |
+| XGBoost          | 5.19 | 287.84 | 16.97| 0.90     |
+| Linear Regression| 8.15 | 293.22 | 17.12| 0.90     |
+| Naive Bayes      | 9.15 | 1072.53| 32.75| 0.63     |
+| Decision Tree    | 2.76 | 171.82 | 13.11| 0.94     |
 
 **2. Code Explanation**
 
